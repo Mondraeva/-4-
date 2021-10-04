@@ -1,0 +1,19 @@
+﻿<Page x:Class="Табличка_Менделеева.Pages.GlavStr"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Табличка_Менделеева.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Главная страница" Background="#FFF8DC"  >
+
+    <Grid>
+        <Label Content="Таблица Менделееева" HorizontalAlignment="Left" Margin="601,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.471,-3.261"/>
+        <Label Content="Теория и самоконтроль" Margin="600,219,5,0" VerticalAlignment="Top"/>
+        <Button Content="Вход" HorizontalAlignment="Center" Margin="0,280,0,0" VerticalAlignment="Top" Height="35" Width="240" ToolTip="Для преподователя и зарегистрировнных студентов"/>
+        <Button Content="Регистрация" HorizontalAlignment="Center" Margin="0,347,0,0" VerticalAlignment="Top" Height="33" Width="240" ToolTip="Для не зарегистрировнных студентов"  />
+
+
+    </Grid>
+</Page>

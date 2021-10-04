@@ -1,0 +1,35 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+
+    <Style TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="FontSize" Value="14pt"/>
+        <Setter Property="FontFamily" Value="Times New Roman"/>
+    </Style>
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="FontSize" Value="14pt"/>
+        <Setter Property="FontFamily" Value="Times New Roman"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Background" Value="#D8BFD8"/>
+    </Style>
+    <Style TargetType="{x:Type TextBox}">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="FontSize" Value="14pt"/>
+        <Setter Property="FontFamily" Value="Times New Roman"/>
+    </Style>
+    <Style TargetType="{x:Type PasswordBox}">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="FontSize" Value="14pt"/>
+        <Setter Property="FontFamily" Value="Times New Roman"/>
+    </Style>
+
+
+
+</ResourceDictionary>
